@@ -1,0 +1,38 @@
+name: Spike / investigación
+description: Investigación con timebox para reducir incertidumbre antes de decidir o implementar
+title: "[Spike] "
+labels: ["type:spike"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Pregunta a responder
+    validations:
+      required: true
+  - type: input
+    id: timebox
+    attributes:
+      label: Timebox
+      description: Tiempo máximo a dedicar. Ej. 4 h
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Entregable
+      description: Qué queda al terminar (ADR, nota en docs/, prototipo descartable...).
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente
+      options:
+        - infra
+        - detection
+        - soar-core
+        - dashboard
+        - rust-parser
+        - docs
+    validations:
+      required: true

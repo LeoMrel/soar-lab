@@ -1,0 +1,41 @@
+name: Bug
+description: Comportamiento incorrecto en el laboratorio, la detección o el SOAR
+title: "[Bug] "
+labels: ["type:bug"]
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamiento actual
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Pasos para reproducir
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Entorno y evidencias
+      description: Versiones, VM afectada, fragmentos de log (sin datos sensibles).
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente
+      options:
+        - infra
+        - detection
+        - soar-core
+        - dashboard
+        - rust-parser
+        - docs
+    validations:
+      required: true

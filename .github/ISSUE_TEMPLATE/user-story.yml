@@ -1,0 +1,49 @@
+name: Historia de usuario / feature
+description: Funcionalidad con valor visible para el laboratorio o el SOAR
+title: "[Story] "
+labels: ["type:story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Historia
+      description: "Como <rol>, quiero <capacidad>, para <beneficio>."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Lista verificable. Cada punto debe poder comprobarse como cumplido o no.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente
+      options:
+        - infra
+        - detection
+        - soar-core
+        - dashboard
+        - rust-parser
+        - docs
+    validations:
+      required: true
+  - type: input
+    id: attack
+    attributes:
+      label: Técnica(s) MITRE ATT&CK relacionada(s)
+      description: Opcional. Ej. T1110.001 (Password Guessing)
+  - type: input
+    id: estimate
+    attributes:
+      label: Estimación (story points)
+      description: 1, 2, 3, 5 u 8. Si es mayor de 8, dividir.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notas técnicas / dependencias

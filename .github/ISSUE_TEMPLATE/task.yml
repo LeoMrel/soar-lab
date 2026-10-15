@@ -1,0 +1,36 @@
+name: Tarea técnica
+description: Trabajo técnico concreto sin historia de usuario asociada
+title: "[Task] "
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Resultado esperado
+      placeholder: |
+        - [ ] ...
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente
+      options:
+        - infra
+        - detection
+        - soar-core
+        - dashboard
+        - rust-parser
+        - docs
+    validations:
+      required: true
+  - type: input
+    id: estimate
+    attributes:
+      label: Estimación (story points)

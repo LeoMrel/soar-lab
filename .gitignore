@@ -1,0 +1,64 @@
+# --- Secretos y credenciales (NUNCA commitear) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.ovpn
+secrets/
+credentials*
+*.tfvars
+*.auto.tfvars
+terraform.tfstate*
+.terraform/
+vault_pass*
+*.vault
+
+# --- Datos de laboratorio (pueden contener IPs, usuarios o contenido sensible) ---
+*.pcap
+*.pcapng
+*.evtx
+*.log
+logs/
+dumps/
+captures/
+*.ova
+*.ovf
+*.vmdk
+*.vdi
+*.qcow2
+*.iso
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Rust ---
+target/
+Cargo.lock.bak
+
+# --- Node (dashboard) ---
+node_modules/
+
+# --- Bases de datos locales ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
