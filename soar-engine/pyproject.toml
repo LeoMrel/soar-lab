@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "soar-engine"
 version = "0.0.1"
-description = "Motor SOAR propio del laboratorio Purple Team"
+description = "Motor SOAR del laboratorio Purple Team"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []

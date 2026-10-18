@@ -10,11 +10,11 @@ Requisitos: [GitHub CLI](https://cli.github.com/) autenticado (`gh auth login`) 
 gh auth refresh -s project
 ```
 
-Uso (desde la raíz del repo, con el repo ya creado y subido a GitHub):
+Uso (desde la raíz del repo):
 
 ```bash
 ./scripts/bootstrap-github.sh                      # labels + milestones + issues
-PROJECT_TITLE="Purple SOAR Lab" ./scripts/bootstrap-github.sh   # además los añade al Project
+PROJECT_TITLE="@LeoMrel's soar-lab" ./scripts/bootstrap-github.sh   # además los añade al Project
 ```
 
-El script no es idempotente para los issues: ejecútalo una sola vez. Los campos **Iteration**, **Estimate** y **Priority** del Project se asignan a mano en la vista de tabla (la estimación también figura en el cuerpo de cada issue).
+El script no es idempotente para los issues: Los campos **Iteration**, **Estimate** y **Priority** del Project se asignan a mano en la vista de tabla (la estimación también figura en el cuerpo de cada issue).

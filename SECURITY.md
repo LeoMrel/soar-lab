@@ -13,7 +13,7 @@ Este proyecto es un **laboratorio educativo**. Todo lo que contiene (reglas de d
 
 ## Datos que no deben entrar en el repositorio
 
-Credenciales, claves, tokens, capturas de tráfico reales, logs con datos personales o IPs reales de redes ajenas. Ver `.gitignore`. Si algo sensible llega a commitearse, hay que **rotar la credencial** y reescribir el historial; borrar el fichero en un commit posterior no basta.
+Credenciales, claves, tokens, capturas de tráfico reales, logs con datos personales o IPs reales de redes ajenas. Ver `.gitignore`.
 
 ## Reporte de vulnerabilidades
 

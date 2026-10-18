@@ -12,21 +12,25 @@
 
 **Capacidad prevista:** _SP_ · **Comprometidos:** _SP_
 
+## Objetivo del sprint
+
 ## Registro durante el sprint
 
 Bloqueos, cambios de alcance, decisiones relevantes (con enlace a ADR si aplica).
 
-## Review
+## Qué se hizo
 
 - **Completado:** _SP_ de _SP_ comprometidos.
 - **No completado y motivo:**
 - **Demo / evidencias:** enlaces a PRs, capturas, resultados de escenarios.
 
+## Problemas encontrados _(Si hubo)_
+
 ## Retrospectiva
 
 - **Qué ha ido bien:**
 - **Qué ha ido mal:**
-- **Qué cambiamos en el próximo sprint:** (acciones concretas, con responsable)
+- **Pendiente/cambios para el próximo sprint:** (acciones concretas, con responsable)
 
 ## Métricas
 

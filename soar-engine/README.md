@@ -1,6 +1,6 @@
 # soar-engine
 
-Motor SOAR propio (Python ≥ 3.11). Es el componente protagonista del proyecto.
+Motor SOAR propio (Python ≥ 3.11).
 
 ## Responsabilidades
 
