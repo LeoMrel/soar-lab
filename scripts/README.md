@@ -18,3 +18,6 @@ PROJECT_TITLE="@LeoMrel's soar-lab" ./scripts/bootstrap-github.sh   # además lo
 ```
 
 El script no es idempotente para los issues: Los campos **Iteration**, **Estimate** y **Priority** del Project se asignan a mano en la vista de tabla (la estimación también figura en el cuerpo de cada issue).
+
+
+## Explicación para scripts adicionales iran abajo según necesidades o problemas que vayan surgiendo
